@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="block">
+        <item >Phone</item>
+        <item >SMS</item>
+        <item >Phone &amp; SMS</item>
+    </string-array>
+    
+</resources>

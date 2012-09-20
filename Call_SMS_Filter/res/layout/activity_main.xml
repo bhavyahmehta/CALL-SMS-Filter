@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter phone no"
+        android:padding="@dimen/padding_medium"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="DONE" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:prompt="@string/block_title"
+        android:entries="@array/block"
+         />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+       />
+
+</RelativeLayout>
